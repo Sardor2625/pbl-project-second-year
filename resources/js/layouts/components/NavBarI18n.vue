@@ -9,13 +9,15 @@ const i18nCompLanguages = [
     label: 'English',
     i18nLang: 'en',
   },
+
   {
-    label: 'French',
-    i18nLang: 'fr',
+    label: 'Uzbek',
+    i18nLang: 'uz',
   },
+  
   {
-    label: 'Arabic',
-    i18nLang: 'ar',
+    label: 'Russian',
+    i18nLang: 'ru',
   },
 ]
 

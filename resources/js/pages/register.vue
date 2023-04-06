@@ -115,10 +115,10 @@ const onSubmit = () => {
             class="mb-6"
           />
           <h5 class="text-h5 font-weight-semibold mb-1">
-            Adventure starts here 🚀
+            Sarguzasht shu yerda boshlanadi 🚀
           </h5>
           <p class="mb-0">
-            Make your app management easy and fun!
+            Ilovangizni boshqarishni oson va qiziqarli qiling!
           </p>
         </VCardText>
 
@@ -169,11 +169,11 @@ const onSubmit = () => {
                     class="pb-1"
                     style="opacity: 1;"
                   >
-                    <span class="me-1">I agree to</span>
+                    <span class="me-1">roziman</span>
                     <a
                       href="javascript:void(0)"
                       class="text-primary"
-                    >privacy policy & terms</a>
+                    >maxfiylik siyosati va shartlari</a>
                   </VLabel>
                 </div>
 
@@ -181,7 +181,7 @@ const onSubmit = () => {
                   block
                   type="submit"
                 >
-                  Sign up
+                Ro'yxatdan o'tish
                 </VBtn>
               </VCol>
 
@@ -190,12 +190,12 @@ const onSubmit = () => {
                 cols="12"
                 class="text-center text-base"
               >
-                <span>Already have an account?</span>
+                <span>Hisobingiz bormi?</span>
                 <RouterLink
                   class="text-primary ms-2"
                   :to="{ name: 'login' }"
                 >
-                  Sign in instead
+                Buning o`rniga tizimga kiring
                 </RouterLink>
               </VCol>
 
@@ -204,7 +204,7 @@ const onSubmit = () => {
                 class="d-flex align-center"
               >
                 <VDivider />
-                <span class="mx-4">or</span>
+                <span class="mx-4">yoki</span>
                 <VDivider />
               </VCol>
 

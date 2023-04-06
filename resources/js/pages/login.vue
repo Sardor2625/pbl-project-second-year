@@ -106,10 +106,10 @@ const onSubmit = () => {
           />
 
           <h5 class="text-h5 font-weight-semibold mb-1">
-            Welcome to {{ themeConfig.app.title }}! 👋🏻
+            Shifoxonaga xush kelibsiz
           </h5>
           <p class="mb-0">
-            Please sign-in to your account and start the adventure
+            Hisobingizga kirish uchun iltimos login va parolni kiriting
           </p>
         </VCardText>
         <VCardText>
@@ -157,13 +157,13 @@ const onSubmit = () => {
                 <div class="d-flex align-center flex-wrap justify-space-between mt-2 mb-4">
                   <VCheckbox
                     v-model="rememberMe"
-                    label="Remember me"
+                    label="eslab qolish"
                   />
                   <RouterLink
                     class="text-primary ms-2 mb-1"
                     :to="{ name: 'forgot-password' }"
                   >
-                    Forgot Password?
+                  Parolni unutdingizmi?
                   </RouterLink>
                 </div>
 
@@ -171,7 +171,7 @@ const onSubmit = () => {
                   block
                   type="submit"
                 >
-                  Login
+                  Kirish
                 </VBtn>
               </VCol>
 
@@ -180,12 +180,12 @@ const onSubmit = () => {
                 cols="12"
                 class="text-center"
               >
-                <span>New on our platform?</span>
+                <span>Platformamizda yangi bo`lsangiz?</span>
                 <RouterLink
                   class="text-primary ms-2"
                   :to="{ name: 'register' }"
                 >
-                  Create an account
+                Hisob ochish
                 </RouterLink>
               </VCol>
               <VCol
@@ -193,7 +193,7 @@ const onSubmit = () => {
                 class="d-flex align-center"
               >
                 <VDivider />
-                <span class="mx-4">or</span>
+                <span class="mx-4">yoki</span>
                 <VDivider />
               </VCol>
 

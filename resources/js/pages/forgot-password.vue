@@ -53,10 +53,10 @@ const authThemeMask = useGenerateImageVariant(authV2MaskLight, authV2MaskDark)
             class="mb-6"
           />
           <h5 class="text-h5 font-weight-semibold mb-1">
-            Forgot Password? 🔒
+            Parolni unutdingizmi?🔒
           </h5>
           <p class="mb-0">
-            Enter your email and we'll send you instructions to reset your password
+            E-pochtangizni kiriting va biz sizga parolni tiklash bo'yicha ko'rsatmalar yuboramiz
           </p>
         </VCardText>
 
@@ -78,7 +78,7 @@ const authThemeMask = useGenerateImageVariant(authV2MaskLight, authV2MaskDark)
                   block
                   type="submit"
                 >
-                  Send Reset Link
+                Qayta tiklash havolasini yuboring
                 </VBtn>
               </VCol>
 
@@ -92,7 +92,7 @@ const authThemeMask = useGenerateImageVariant(authV2MaskLight, authV2MaskDark)
                     icon="tabler-chevron-left"
                     class="flip-in-rtl"
                   />
-                  <span>Back to login</span>
+                  <span>Kirish sahifasiga qaytish</span>
                 </RouterLink>
               </VCol>
             </VRow>

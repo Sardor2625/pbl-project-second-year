@@ -14,7 +14,7 @@ const authThemeMask = useGenerateImageVariant(miscMaskLight, miscMaskDark)
       <h4 class="text-h4 font-weight-medium mb-3">
         You are not authorized! 🔐
       </h4>
-      <p>You don't have permission to access this page. Go Home!</p>
+      <p>You don`t have permission to access this page. Go Home!</p>
       <VBtn to="/">
         Back to Home
       </VBtn>
